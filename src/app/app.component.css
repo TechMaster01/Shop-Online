@@ -1,0 +1,16 @@
+nav{
+  height: 60px;
+  background-color: orange;
+  align-items: center;
+  /* justify-content: center; */
+  align-content: center;
+  display: flex;
+}
+
+nav img{
+  margin: 15px;
+}
+
+nav h1{
+  font-size: 25px;
+}

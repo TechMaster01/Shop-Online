@@ -1,0 +1,16 @@
+<section class="DetailsPage">
+    <article>
+        <section class="Foto">
+            <img [src]="productos?.image" alt="Esta es una foto de {{productos?.title}}">
+        </section>
+        <section class="Details">
+            <h1>{{productos?.title}}</h1>
+            <p><span>Categor&iacute;a:</span> {{productos?.category}}</p>
+            <hr>
+            <p><span>Descripci&oacute;n:</span> {{productos?.description}}</p>
+            <p>${{productos?.price}}</p>
+            <hr>
+            <p><img src="../../assets/stars.png" alt="" class="logito">{{productos?.rating?.rate}}  <img src="../../assets/users.png" alt="" class="logito">{{productos?.rating?.count}}</p>
+        </section>
+    </article>
+</section>

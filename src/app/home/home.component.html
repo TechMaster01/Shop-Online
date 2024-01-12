@@ -1,0 +1,10 @@
+<section class="filter">
+    <form action="">
+        <input type="text" placeholder="Buscar por categoria" #filter>
+        <button type="button" (click)="filterResults(filter.value)">Filtrar</button>
+    </form>
+</section>
+
+<section>
+    <app-productos *ngFor="let Productos of filteredLocationList"[Productos]="Productos"></app-productos>
+</section>

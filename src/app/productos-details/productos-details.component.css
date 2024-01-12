@@ -1,0 +1,45 @@
+.DetailsPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logito{
+    margin-bottom: 0;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-size: xx-large;
+}
+
+span{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+article{
+    display: flex;
+}
+
+.Foto{
+    width: 45%;
+}
+
+img{
+    width: 400px;
+    margin: 5px;
+}
+
+.Details{
+    border: 1px solid black;
+    width: 45%;
+    margin-left: 50px;
+}
+
+h1, p{
+    margin: 20px;
+}

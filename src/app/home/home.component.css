@@ -1,0 +1,17 @@
+.filter{
+    margin: 25px;
+  }
+  
+  .filter button{
+    background-color: gold;
+    border-radius: 10px;
+    margin-left: 5px;
+    height: 35px;
+    width: 50px;
+  }
+  
+  .filter input{
+    border-color: orange;
+    border-radius: 10px;
+    height: 30px;
+  }

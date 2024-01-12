@@ -1,0 +1,10 @@
+<section class="producto">
+    <img src="{{Productos.image}}" alt="aqui va productos.image" width="200px" height="200px">
+    <hr>
+    <h1>{{Productos.title}}</h1>
+    <hr>
+    <h2>{{Productos.category}}</h2>
+    <hr>
+    <p>${{Productos.price}}</p>
+    <a [routerLink]="['/details', Productos.id]">Conocer m&aacute;s</a>
+</section>
